@@ -6,7 +6,7 @@ metadata:
     name: result-app-deployment
     app: vote-ms
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       name: result-app-pod

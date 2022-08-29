@@ -1,0 +1,1 @@
+kubectl delete -f postgres.yaml && kubectl delete -f redis.yaml && kubectl delete -f result-app.yaml && kubectl delete -f vote-app.yaml && kubectl delete -f worker-app.yaml
