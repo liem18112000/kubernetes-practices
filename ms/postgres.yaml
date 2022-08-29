@@ -37,7 +37,7 @@ metadata:
     name: postgres-service
     app: vote-ms
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     name: postgres
     app: vote-ms

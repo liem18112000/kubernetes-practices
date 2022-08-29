@@ -32,7 +32,7 @@ metadata:
     name: redis-service
     app: vote-ms
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     name: redis
     app: vote-ms

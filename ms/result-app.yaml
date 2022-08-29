@@ -32,7 +32,7 @@ metadata:
     name: result-service
     app: vote-ms
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     name: result-app-pod
     app: vote-ms
