@@ -1,0 +1,1 @@
+kubectl apply -f postgres.yaml && kubectl apply -f redis.yaml && kubectl apply -f result-app.yaml && kubectl apply -f vote-app.yaml && kubectl apply -f worker-app.yaml
